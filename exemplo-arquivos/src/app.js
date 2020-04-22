@@ -3,6 +3,8 @@ const cors = require('cors');
 const logger = require('morgan');
 const FileUpload = require('express-fileupload');
 
+require('./config/db');
+
 const app = express();
 
 app.use(cors());
