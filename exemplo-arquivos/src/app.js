@@ -17,5 +17,6 @@ app.use(FileUpload());
 
 
 app.use('/upload', require('./routes/upload'));
+app.use('/download', require('./routes/download'));
 
 module.exports = app;
