@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Jost|Luckiest+Guy|Special+Elite&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: #34495e;
+    font-size: 400%;
+}
+
+#conteiner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#chat {
+    width: 60%;
+}
+
+#chat input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#chat input[type=text] {
+    width: 80%;
+    border-radius: 5px;
+    font-family: 'Special Elite', cursive;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    height: 30px;
+    font-size: 100%;
+}
+
+#chat input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background-color: #1f3a93;
+    color: white;
+    font-family:  "Jost", sans-serif;
+    font-size: 150%;
+    padding: 5px 10px;
+}
+
+#mensagensChat {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 5px;
+    font-family: 'Special Elite', cursive;
+}
+
+#usuarios {
+    width: 40%;
+}
+
+#usuarios h2 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #34495e;
+}
