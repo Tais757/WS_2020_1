@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,300&display=swap');
+
+
+#conteiner {
+    padding: 50px 0px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#tweets {
+    width: 60%;
+    margin: 50px auto;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.tweet {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 5px #cccccc;
+}
+
+
+.tweet * {
+    vertical-align: middle;
+}
+
+.tweet img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.tweet span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
